@@ -16,7 +16,7 @@ abstract class SslSocket implements LoggerAwareInterface
 	/**
 	 * Minimum interval to wait for a response (Internal use)
 	 */
-	const READ_TIMEOUT = 1000000;
+	const READ_TIMEOUT = 0;
 
 	// Settings of the connection
 	private $certificate;
